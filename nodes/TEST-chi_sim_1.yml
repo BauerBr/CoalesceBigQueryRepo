@@ -1,0 +1,118 @@
+fileVersion: 1
+id: d396add7-ab96-4d9c-81e7-d86ba409be99
+name: chi_sim_1
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TEST
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 444c7aa1-d8a2-4c11-a7ff-b08fa6bbe506
+          stepCounter: d396add7-ab96-4d9c-81e7-d86ba409be99
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: term
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 655cf13e-7c5b-453a-8e4e-209794e88cfb
+          stepCounter: d396add7-ab96-4d9c-81e7-d86ba409be99
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: term_frequency
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f714aa73-72a8-423f-a383-a8655b10d4c6
+          stepCounter: d396add7-ab96-4d9c-81e7-d86ba409be99
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: document_frequency
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 12262c61-d4b7-4576-acf1-c1fa8df0430b
+          stepCounter: d396add7-ab96-4d9c-81e7-d86ba409be99
+        config: {}
+        dataType: ARRAY<STRING>
+        defaultValue: "NULL"
+        description: ""
+        name: tokens
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: d7615295-efa5-4d95-b635-00867b45411b
+          stepCounter: d396add7-ab96-4d9c-81e7-d86ba409be99
+        config: {}
+        dataType: BOOL
+        defaultValue: "NULL"
+        description: ""
+        name: has_tag
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2fbb40a4-a21b-4faf-b40c-d6b514ed004f
+          stepCounter: d396add7-ab96-4d9c-81e7-d86ba409be99
+        config: {}
+        dataType: ARRAY<STRUCT<year INT64, term_frequency INT64, document_frequency INT64>>
+        defaultValue: "NULL"
+        description: ""
+        name: years
+        nullable: false
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: chi_sim_1
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node

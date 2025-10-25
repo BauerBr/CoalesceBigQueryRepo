@@ -1,0 +1,8 @@
+fileVersion: 1
+id: "203"
+mappingDefinitions:
+  TEST:
+    database: coalesce-a6346
+    schema: coalesce_dev
+name: New Environment
+type: Environment
