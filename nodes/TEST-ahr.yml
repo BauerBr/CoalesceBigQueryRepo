@@ -1,0 +1,186 @@
+fileVersion: 1
+id: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+name: ahr
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TEST
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: aca203d6-2825-47db-aabc-2f59977fac13
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: edition
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 56a4f049-9eaf-4d94-99da-cb5defdb1491
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: report_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 73052930-b22e-4c7c-95f6-7ad15bc1cf34
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: measure_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8bd255c8-483b-4806-ac40-51d0f02ebb27
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: state_name
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2dbfe479-33a6-449d-9d7b-330ad81ca5dc
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: subpopulation
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 49d42350-325b-43d8-9063-dd0ca44bdac2
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: FLOAT64
+        defaultValue: "NULL"
+        description: ""
+        name: value
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: bb19f5a6-cd4b-493b-8c68-6a36d9d7618f
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: FLOAT64
+        defaultValue: "NULL"
+        description: ""
+        name: lower_ci
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 43a8a7db-230d-4132-a5b8-6432363efb58
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: FLOAT64
+        defaultValue: "NULL"
+        description: ""
+        name: upper_ci
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3f09893f-4d25-419c-a309-fbaef11e015f
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: source
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f6ef94fe-02a3-4655-973a-2a36c7f2a889
+          stepCounter: 697513e8-580a-4f3c-b0b9-4345e9f2a635
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: source_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: ahr
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
