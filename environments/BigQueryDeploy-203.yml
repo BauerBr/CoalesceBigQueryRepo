@@ -3,6 +3,9 @@ id: "203"
 mappingDefinitions:
   TEST:
     database: coalesce-a6346
+    schema: MarissaDB
+  TEST2:
+    database: coalesce-a6346
     schema: coalesce_dev
 name: Big Query Deploy
 type: Environment

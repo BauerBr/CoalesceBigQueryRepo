@@ -2,3 +2,4 @@ defaultStorageMapping: TEST
 fileVersion: 1
 locations:
   - TEST
+  - TEST2
