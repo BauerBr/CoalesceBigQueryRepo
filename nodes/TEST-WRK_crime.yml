@@ -56,7 +56,7 @@ operation:
           columnCounter: c21970f0-548e-47bd-a285-4f11947f7e0e
           stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
         config: {}
-        dataType: FLOAT64
+        dataType: STRING
         description: ""
         name: census_tract
         nullable: true
@@ -73,7 +73,7 @@ operation:
         dataType: TIMESTAMP
         description: ""
         name: clearance_date
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 242faa29-7cae-4ae8-b438-3f5c42c32ad6
@@ -101,7 +101,7 @@ operation:
         dataType: INT64
         description: ""
         name: council_district_code
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 0d2ddbb1-8b3c-4fde-866d-fc93fdc7da56
@@ -207,20 +207,6 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: 9d9ab5b9-6e6d-4eda-aa2a-e3e9891a1725
-          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
-        config: {}
-        dataType: TIMESTAMP
-        description: ""
-        name: timestamp
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: c89dca7e-b79d-4791-96ce-945a12b5dc2a
-                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: a90bfb8d-5e04-4eef-83e0-7aa0930f2ab6
           stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
         config: {}
@@ -231,20 +217,6 @@ operation:
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: c17eba9d-4033-4025-a99c-071ed1740c4e
-                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: a80fe593-3787-441d-b6ca-5d286fd3bee9
-          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
-        config: {}
-        dataType: INT64
-        description: ""
-        name: y_coordinate
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: d6566e13-4a34-4833-ab9d-809a50e89fac
                 stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
             transform: ""
       - appliedColumnTests: {}
@@ -275,6 +247,25 @@ operation:
               - columnCounter: 66d23151-13a0-41ad-b8ef-898d9991fe46
                 stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
             transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 7dd487c4-784c-4f10-98f2-bcf6d41fc0a5
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        defaultValue: ""
+        description: ""
+        hashDetails:
+          hashAlgorithm: SHA1
+        hashedColumns:
+          - columnCounter: e59e9caa-da87-4398-967b-6f9a29702c05
+            stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        name: GH
+        nullable: true
+        sourceColumnReferences: []
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
