@@ -1,0 +1,298 @@
+fileVersion: 1
+id: d1f91bad-6470-46af-94fc-b4ef4787004e
+name: WRK_crime
+operation:
+  config:
+    groupByAll: false
+    insertStrategy: INSERT
+    orderby: false
+    orderbycolumn:
+      items:
+        - {}
+    postSQL: ""
+    preSQL: ""
+    selectDistinct: false
+    testsEnabled: false
+    truncateBefore: true
+  database: ""
+  deployEnabled: true
+  description: ""
+  isMultisource: false
+  locationName: TEST
+  materializationType: table
+  metadata:
+    appliedNodeTests: []
+    columns:
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: f0c7df64-c8b0-44c6-9ab0-009eec6c4afa
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: INT64
+        description: ""
+        name: unique_key
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 5b38a708-cd26-45dd-9d97-c93665a6528f
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 41b68712-4107-47af-8771-a514d5f60d78
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: address
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 851e6d3e-a599-4ae6-b4b0-4b5dda7da887
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c21970f0-548e-47bd-a285-4f11947f7e0e
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: FLOAT64
+        description: ""
+        name: census_tract
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 93b6d218-9f8b-4cb0-a3c8-2853484cc21f
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9ca10e4f-f738-440b-9aa2-251ddd765b80
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: clearance_date
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 242faa29-7cae-4ae8-b438-3f5c42c32ad6
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: c910595b-eb4d-4913-8af7-1a6b077d04cd
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: clearance_status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a4273f35-6b6f-42b2-b237-d46216f0254d
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9da09eb2-c8b9-460a-a903-b5bb8f6dba0f
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: INT64
+        description: ""
+        name: council_district_code
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 0d2ddbb1-8b3c-4fde-866d-fc93fdc7da56
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 65eebb7c-afcf-4f0e-8867-ab383577f181
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: description
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a2d6ef9e-2069-449d-8a1f-2af53b9b9a72
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3e83ca98-8209-481f-99d9-cc4b86455ec1
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: district
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 74ced5fa-50ff-449f-b7f2-7a7c6a5f79c3
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 3443a467-930e-4605-bc83-b4a12f88367c
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: FLOAT64
+        description: ""
+        name: latitude
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 63a0ad34-f4bb-4d92-bb2d-b0f03ecfe5e9
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 8f399345-7d45-4b48-a537-ae55b3a5af44
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: FLOAT64
+        description: ""
+        name: longitude
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: a75bfb69-aa97-4e3a-9234-53994fa89550
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2521b13c-bf7b-4b95-a6a5-7d46496712f6
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: location
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: e9e3726b-4b8c-405d-9833-e45a43a7e45e
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 27200f88-c54a-4913-9a47-e511e726813e
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: location_description
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 003e4e73-90d3-45ee-b00d-af944f3abbf6
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 778c1dfe-4f3d-4a01-9a4a-0504738a2b18
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: primary_type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 9b9f3ca4-d3f7-4075-8164-f5b69b463f17
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9d9ab5b9-6e6d-4eda-aa2a-e3e9891a1725
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: TIMESTAMP
+        description: ""
+        name: timestamp
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c89dca7e-b79d-4791-96ce-945a12b5dc2a
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a90bfb8d-5e04-4eef-83e0-7aa0930f2ab6
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: INT64
+        description: ""
+        name: x_coordinate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: c17eba9d-4033-4025-a99c-071ed1740c4e
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: a80fe593-3787-441d-b6ca-5d286fd3bee9
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: INT64
+        description: ""
+        name: y_coordinate
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: d6566e13-4a34-4833-ab9d-809a50e89fac
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e54d2031-1c7b-43d5-99cd-d18c74b256b2
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: INT64
+        description: ""
+        name: year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 6ad6bcdb-6580-42dc-aa78-f3429c68efee
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+      - appliedColumnTests: {}
+        columnReference:
+          columnCounter: e59e9caa-da87-4398-967b-6f9a29702c05
+          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
+        config: {}
+        dataType: STRING
+        description: ""
+        name: zipcode
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: 66d23151-13a0-41ad-b8ef-898d9991fe46
+                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+            transform: ""
+    cteString: ""
+    enabledColumnTestIDs: []
+    sourceMapping:
+      - aliases:
+          crime: afb4baa8-c274-4e20-8c3c-2d683bdaa704
+        customSQL:
+          customSQL: ""
+        dependencies:
+          - locationName: TEST2
+            nodeName: crime
+        join:
+          joinCondition: FROM {{ ref('TEST2', 'crime') }} `crime`
+        name: WRK_crime
+        noLinkRefs: []
+  name: WRK_crime
+  overrideSQL: false
+  schema: ""
+  sqlType: Stage
+  type: sql
+  version: 1
+type: Node
