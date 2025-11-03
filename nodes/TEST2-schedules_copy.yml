@@ -1,0 +1,288 @@
+fileVersion: 1
+id: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+name: schedules_copy
+operation:
+  database: ""
+  deployEnabled: true
+  description: ""
+  locationName: TEST2
+  metadata:
+    columns:
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: a6b6f18f-8225-4bb5-9a2e-7341c952d331
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: gameId
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: ffb82ef0-6e3e-4e3c-a735-d51f01872868
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: gameNumber
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: b3b19829-5882-482c-8fec-3f5a8b7e135b
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: seasonId
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 2d3239cb-d85a-4e94-8e91-f870841b6faf
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: year
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: cf6b8382-091c-4373-aae5-e2dfd291818f
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: type
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 32ba9697-58a6-4768-921e-8252f629263e
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: dayNight
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: f9675694-dd90-4785-8a10-503824d05684
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: duration
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 96e5c1f7-ba4b-4e39-9211-0adacb9f5692
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: duration_minutes
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 5c8702ee-88d1-48a4-996d-1dc45c814b82
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: homeTeamId
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 92544239-e12b-4cf7-95af-64a83d346925
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: homeTeamName
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 39ecef62-c762-4d0b-a543-cadab7af5d98
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: awayTeamId
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 078beac2-f9b3-492d-8803-37ccd7f8015e
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: awayTeamName
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: e2e6b91f-9f52-4efd-bf77-c76ac3681971
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: "NULL"
+        description: ""
+        name: startTime
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 026f33d0-257e-48cd-820e-8927662a0db8
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: INT64
+        defaultValue: "NULL"
+        description: ""
+        name: attendance
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 9f7c1307-e2bd-45fe-9132-4ba5d90d19e4
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: STRING
+        defaultValue: "NULL"
+        description: ""
+        name: status
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+      - acceptedValues:
+          strictMatch: true
+          values: []
+        appliedColumnTests: {}
+        columnReference:
+          columnCounter: 034d3a4b-58f4-41a4-812a-4937ab33decd
+          stepCounter: 6b897603-4c0c-4078-bc7e-f6bb2422a570
+        config: {}
+        dataType: TIMESTAMP
+        defaultValue: "NULL"
+        description: ""
+        name: created
+        nullable: true
+        sourceColumnReferences:
+          - columnReferences: []
+            transform: ""
+        transform: ""
+  name: schedules_copy
+  schema: ""
+  sqlType: Source
+  type: sourceInput
+  version: 1
+type: Node
