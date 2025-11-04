@@ -56,7 +56,7 @@ operation:
           columnCounter: c21970f0-548e-47bd-a285-4f11947f7e0e
           stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
         config: {}
-        dataType: STRING
+        dataType: INT64
         description: ""
         name: census_tract
         nullable: true
