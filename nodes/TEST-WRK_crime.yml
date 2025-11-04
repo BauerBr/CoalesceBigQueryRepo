@@ -28,7 +28,7 @@ operation:
           columnCounter: f0c7df64-c8b0-44c6-9ab0-009eec6c4afa
           stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
         config: {}
-        dataType: INT64
+        dataType: FLOAT64
         description: ""
         name: unique_key
         nullable: true
@@ -53,27 +53,13 @@ operation:
             transform: ""
       - appliedColumnTests: {}
         columnReference:
-          columnCounter: c21970f0-548e-47bd-a285-4f11947f7e0e
-          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
-        config: {}
-        dataType: INT64
-        description: ""
-        name: census_tract
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 93b6d218-9f8b-4cb0-a3c8-2853484cc21f
-                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
-            transform: ""
-      - appliedColumnTests: {}
-        columnReference:
           columnCounter: 9ca10e4f-f738-440b-9aa2-251ddd765b80
           stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
         config: {}
         dataType: TIMESTAMP
         description: ""
         name: clearance_date
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 242faa29-7cae-4ae8-b438-3f5c42c32ad6
@@ -101,7 +87,7 @@ operation:
         dataType: INT64
         description: ""
         name: council_district_code
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 0d2ddbb1-8b3c-4fde-866d-fc93fdc7da56
@@ -233,39 +219,26 @@ operation:
               - columnCounter: 6ad6bcdb-6580-42dc-aa78-f3429c68efee
                 stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
             transform: ""
-      - appliedColumnTests: {}
-        columnReference:
-          columnCounter: e59e9caa-da87-4398-967b-6f9a29702c05
-          stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
-        config: {}
-        dataType: STRING
-        description: ""
-        name: zipcode
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences:
-              - columnCounter: 66d23151-13a0-41ad-b8ef-898d9991fe46
-                stepCounter: afb4baa8-c274-4e20-8c3c-2d683bdaa704
-            transform: ""
       - acceptedValues:
           strictMatch: true
           values: []
         appliedColumnTests: {}
         columnReference:
-          columnCounter: 7dd487c4-784c-4f10-98f2-bcf6d41fc0a5
+          columnCounter: 9aa9b4ab-f9be-4959-92f1-01fc03edcc4d
           stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
         config: {}
-        dataType: STRING
+        dataType: DATE
         defaultValue: ""
         description: ""
-        hashDetails:
-          hashAlgorithm: SHA1
-        hashedColumns:
-          - columnCounter: e59e9caa-da87-4398-967b-6f9a29702c05
-            stepCounter: d1f91bad-6470-46af-94fc-b4ef4787004e
-        name: GH
+        keyColumnType: None
+        name: new_column
         nullable: true
-        sourceColumnReferences: []
+        sourceColumnReferences:
+          - columnReferences:
+              - columnCounter: "0"
+                stepCounter: "0"
+            transform: CURRENT_DATE('America/Los_Angeles')
+        systemColumnType: None
     cteString: ""
     enabledColumnTestIDs: []
     sourceMapping:
