@@ -59,7 +59,7 @@ operation:
         dataType: TIMESTAMP
         description: ""
         name: clearance_date
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 242faa29-7cae-4ae8-b438-3f5c42c32ad6
