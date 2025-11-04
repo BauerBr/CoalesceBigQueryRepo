@@ -87,7 +87,7 @@ operation:
         dataType: INT64
         description: ""
         name: council_district_code
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 0d2ddbb1-8b3c-4fde-866d-fc93fdc7da56
