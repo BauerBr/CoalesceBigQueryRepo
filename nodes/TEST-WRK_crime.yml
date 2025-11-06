@@ -36,7 +36,7 @@ operation:
         dataType: FLOAT64
         description: ""
         name: unique_key
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 5b38a708-cd26-45dd-9d97-c93665a6528f
@@ -64,7 +64,7 @@ operation:
         dataType: TIMESTAMP
         description: ""
         name: clearance_date
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 242faa29-7cae-4ae8-b438-3f5c42c32ad6
@@ -92,7 +92,7 @@ operation:
         dataType: INT64
         description: ""
         name: council_district_code
-        nullable: false
+        nullable: true
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 0d2ddbb1-8b3c-4fde-866d-fc93fdc7da56
@@ -237,7 +237,7 @@ operation:
         description: ""
         keyColumnType: None
         name: new_column
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: "0"
