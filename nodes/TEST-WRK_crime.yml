@@ -21,7 +21,12 @@ operation:
   locationName: TEST
   materializationType: table
   metadata:
-    appliedNodeTests: []
+    appliedNodeTests:
+      - continueOnFailure: true
+        description: ""
+        name: Test
+        runOrder: After
+        templateString: ""
     columns:
       - appliedColumnTests: {}
         columnReference:
@@ -31,7 +36,7 @@ operation:
         dataType: FLOAT64
         description: ""
         name: unique_key
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: 5b38a708-cd26-45dd-9d97-c93665a6528f
