@@ -1,0 +1,11 @@
+fileVersion: 1
+id: "204"
+mappingDefinitions:
+  TEST:
+    database: coalesce-a6346
+    schema: TestBryanDeploy
+  TEST2:
+    database: bigquery-public-data
+    schema: austin_crime
+name: Big Query Deploy 2
+type: Environment
