@@ -288,7 +288,7 @@ operation:
         description: ""
         keyColumnType: None
         name: test
-        nullable: true
+        nullable: false
         sourceColumnReferences:
           - columnReferences:
               - columnCounter: "0"
