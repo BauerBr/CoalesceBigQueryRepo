@@ -38,7 +38,7 @@ operation:
         config: {}
         dataType: STRING
         description: ""
-        name: address
+        name: address1
         nullable: true
         sourceColumnReferences:
           - columnReferences:
