@@ -1,6 +1,6 @@
 fileVersion: 1
 id: 8cf97ba4-bff9-46fb-98ad-d4c40e8d41ad
-name: WRK_crime_2
+name: WRK_crime_2_3
 operation:
   config:
     groupByAll: false
@@ -16,7 +16,7 @@ operation:
     truncateBefore: true
   database: ""
   deployEnabled: true
-  description: ""
+  description: Creates and truncates the WRK_crime_2 work table, then inserts data from the austin_crime.crime table with an additional test column populated with the current date.
   isMultisource: false
   locationName: TEST
   materializationType: table
@@ -307,9 +307,9 @@ operation:
             nodeName: crime
         join:
           joinCondition: FROM {{ ref('TEST2', 'crime') }} `crime`
-        name: WRK_crime_2
+        name: WRK_crime_2_3
         noLinkRefs: []
-  name: WRK_crime_2
+  name: WRK_crime_2_3
   overrideSQL: false
   schema: ""
   sqlType: Stage
