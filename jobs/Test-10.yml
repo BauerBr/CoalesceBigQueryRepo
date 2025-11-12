@@ -1,6 +1,6 @@
 excludeSelector: ""
 fileVersion: 1
 id: "10"
-includeSelector: ""
+includeSelector: "{ location: TEST name: WRK_crime_2_3 } OR { location: TEST2 name: crime }"
 name: Test
 type: Job
