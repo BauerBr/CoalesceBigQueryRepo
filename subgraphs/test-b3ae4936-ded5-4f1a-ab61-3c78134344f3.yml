@@ -2,7 +2,6 @@ fileVersion: 1
 id: b3ae4936-ded5-4f1a-ab61-3c78134344f3
 name: test
 steps:
-  - 2f740c9a-f29d-4aa7-b381-73808e948741
   - 8cf97ba4-bff9-46fb-98ad-d4c40e8d41ad
   - afb4baa8-c274-4e20-8c3c-2d683bdaa704
 type: Subgraph
