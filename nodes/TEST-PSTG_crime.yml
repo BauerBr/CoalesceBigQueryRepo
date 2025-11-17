@@ -23,23 +23,6 @@ operation:
   metadata:
     appliedNodeTests: []
     columns:
-      - acceptedValues:
-          strictMatch: true
-          values: []
-        appliedColumnTests: {}
-        columnReference:
-          columnCounter: 35493955-8fb5-4e20-9e43-5c9f4fbd5329
-          stepCounter: 473d69d6-2a66-4d50-a6f5-8eda237e93f8
-        config: {}
-        dataType: STRING
-        defaultValue: ""
-        description: ""
-        isSurrogateKey: true
-        name: PSTG_crime_KEY
-        nullable: true
-        sourceColumnReferences:
-          - columnReferences: []
-            transform: ""
       - appliedColumnTests: {}
         columnReference:
           columnCounter: 742fb792-f76c-458b-890d-af63e55f2b0e
@@ -47,6 +30,7 @@ operation:
         config: {}
         dataType: INT64
         description: ""
+        isBusinessKey: true
         name: unique_key
         nullable: true
         sourceColumnReferences:
