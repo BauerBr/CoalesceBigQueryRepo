@@ -5,7 +5,7 @@ mappingDefinitions:
     database: coalesce-a6346
     schema: TestBryanDeploy
   TEST2:
-    database: coalesce-a6346
-    schema: coalesce_dev
+    database: bigquery-public-data
+    schema: austin_crime
 name: Big Query Deploy
 type: Environment
